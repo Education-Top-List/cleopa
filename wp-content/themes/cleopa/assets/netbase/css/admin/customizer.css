@@ -1,0 +1,239 @@
+.nb-slider {
+  position: relative;
+  float: left;
+  margin-left: 15px;
+  width: 88%;
+  height: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  -webkit-border-radius: 100em;
+  border-radius: 100em;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nb-slider .ui-slider-range {
+  height: 5px;
+  background: #2196F3;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.nb-slider .ui-slider-handle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border: 0;
+  background: #2196F3;
+  padding-top: 3px;
+  font-size: 12px;
+  position: absolute;
+  top: -10px;
+  z-index: 2;
+  width: 50px;
+  height: 24px;
+  margin-left: -25px;
+  color: #fff;
+  -webkit-border-radius: 100em;
+  border-radius: 100em;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.nb-slider #tooltip {
+  position: absolute;
+}
+
+.customize-control-radio-image .image.ui-buttonset input[type=radio] {
+  height: auto;
+}
+
+.customize-control-radio-image .image.ui-buttonset label {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.customize-control-radio-image .image.ui-buttonset label.ui-state-active img {
+  opacity: 1;
+}
+
+.customize-control-radio-image .image.ui-buttonset label.ui-state-hover img {
+  opacity: 0.9;
+}
+
+.customize-control-radio-image .image.ui-buttonset label img {
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
+
+.customize-control-radio-image .image.ui-buttonset .customize-control-radio-buttonset label {
+  padding: 5px 10px;
+  background: #f7f7f7;
+  line-height: 35px;
+}
+
+.customize-control-radio-image .image.ui-buttonset .customize-control-radio-buttonset label.ui-corner-left {
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  border-left: 0;
+}
+
+.customize-control-radio-image .image.ui-buttonset .customize-control-radio-buttonset label.ui-corner-right {
+  -webkit-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.customize-control-radio-image label.ui-button {
+  width: 100%;
+  height: auto;
+}
+
+.customize-control-checkbox label {
+  margin-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 28px;
+}
+
+.onoffswitch {
+  position: relative;
+  width: 40px;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+  display: none !important;
+}
+
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  height: 18px;
+  padding: 0;
+  line-height: 18px;
+  border: 1px solid #f2f2f2;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  background-color: #9E9E9E;
+  -webkit-transition: background-color 0.2s ease-in;
+  -o-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+
+.onoffswitch-label:before {
+  content: "";
+  display: block;
+  width: 18px;
+  margin: 0;
+  background: #EBEBEB;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20px;
+  border: 2px solid #9E9E9E;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+  background-color: #2196F3;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  border-color: #2196F3;
+  right: 0;
+}
+
+.customize-control-checkbox-multiple {
+  float: left;
+  margin-top: 15px;
+}
+
+.customize-control-checkbox-multiple input[type="checkbox"] {
+  display: none;
+}
+
+.customize-control-checkbox-multiple input[type="checkbox"].active + i {
+  background: #e9e9e9;
+  -webkit-box-shadow: 0 0 0 1px #fff inset;
+  box-shadow: 0 0 0 1px #fff inset;
+}
+
+.customize-control-checkbox-multiple > li {
+  float: left;
+}
+
+.customize-control-checkbox-multiple > li:not(:last-child) i {
+  display: block;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 7px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.customize-control-checkbox-multiple select {
+  height: 34px;
+  min-width: 128px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: #ccc;
+}
+
+.customize-control-checkbox-multiple select[name="fonts-weight"] option {
+  display: none;
+}
+
+.wp-picker-container,
+.wp-picker-container:active {
+  display: block;
+}
+
+.wp-color-result {
+  width: 82%;
+  display: block;
+  height: 30px;
+  border: none;
+  padding-left: 45px;
+}
+
+.wp-color-result:after {
+  background: rgba(0, 0, 0, 0.2);
+  line-height: 30px;
+  color: #fff;
+  border-left: none;
+}
+
+.wp-color-result:focus,
+.wp-color-result:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: #fff;
+}
+
+.wp-color-result:focus:after,
+.wp-color-result:hover:after {
+  color: #fff;
+  border: none;
+}
+
+#customize-theme-controls .customize-pane-child.accordion-section-content {
+  overflow: inherit;
+}
